@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Css_Selectors</title>
+
+    <style>
+        /* Universal Selectors*/
+        /*  *{
+              color: orange;
+          }*/
+        /* Type Selectors*/
+        /* h1{
+             color: darkred;
+             font-size: 20px;
+         }*/
+        /*   Id Selectors*/
+        /* #css_Footer{
+             color: darkblue;
+             font-size: 30px;
+         }
+ */
+        /*  Class Selectors*/
+        /*.my_class{
+            color: cornflowerblue;
+            font-size: 35px;
+        }*/
+        /* Attribute Selectors*/
+        /*[id]{
+            color: darkred;
+        }*/
+        /*  [id='mine']{
+              color: chocolate;
+              border:1px solid blue;
+          }*/
+        /*    Psudeo clss Elements*/
+        /*  li:first-child{
+              color: darkmagenta;
+          }
+          li:last-child{
+              color: red;
+          }
+
+          li:nth-child(3){
+              font-weight: bold;
+          }
+          p:first-child{
+           font-weight: bold;
+          }*/
+        /*li:first-child:hover {
+            font-weight: bold;
+        }
+        li:last-child:hover{
+            font-size: 30px;
+            color: dimgrey;
+        }
+*/
+        /*psudo Elements*/
+        /* li::first-letter{
+             color: red;
+         }*/
+
+        /* p::first-letter{
+             font-size: 50px;
+             color: Green;
+         }
+        p::selection{
+            color: black;
+            background-color: yellow;
+        }
+        li::marker{
+            color: green;
+        }
+        p::first-line{
+            color: blue;
+        }*/
+        /*decendent Combinators*/
+        /*   section h1{
+               color: blue;
+               background-color: yellow;
+
+           }*/
+        /* .hii  section h1{
+            font-size: 50px;
+            color: darkmagenta;
+        }*/
+       /* child Combinators*/
+       /* header>section>p:hover{
+            color: darkred;
+            font-size: 40px;
+
+        }*/
+        h1 + p {
+            color: #8b000c;
+            font-size: 30px;
+        }
+
+
+    </style>
+
+</head>
+<body class="hii">
+<h1>Out Side of the Body</h1>
+<header>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, laudantium, tempore. Asperiores cupiditate debitis earum enim et,
+        eveniet illum labore laboriosam, libero mollitia necessitatibus nihil perspiciatis repellendus, tempore unde. Minima!</p>
+    <h1 class="selectedPare" id="my-header">Hello there inside of Header</h1>
+    <section>
+        <h1>Hello Css</h1>
+        <p class="my_class">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Autem consectetur corporis cumque delectus esse fuga impedit iste magnam obcaecati tempore!</p>
+    </section>
+    <p class="my_class">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque beatae doloremque dolores earum
+        et eum fugit, harum illum, iste libero maxime nemo odio quae, quas.</p>
+    <p class="my_class">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur autem illo laborum nulla
+        quaerat reprehenderitlorem20djsgfjhgfbjzvhfhvjxfvjhfvbxjhbjkvbfkjvsbfkvjbfkhbkdfchgjkghjkbgjk
+        similique sunt vero. Architecto, facere.</p>
+    <p class="my_class">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, neque.</p>
+</header>
+<ol>
+    <li>A</li>
+    <li>B</li>
+    <li>C</li>
+</ol>
+<ul id="list01">
+    <li>Java</li>
+    <li>css</li>
+    <li>C#</li>
+</ul>
+<ol class="Country">
+    <li>SL</li>
+    <li>Ind</li>
+    <li>Aus</li>
+    <li>Nz</li>
+</ol>
+<h1 id="css_Footer">My_Css_Document</h1>
+<h1 id="mine">Hi Java</h1>
+
+
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+</ul>
+
+</body>
+</html>

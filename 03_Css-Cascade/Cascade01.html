@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cascade Css 2</title>
+    <style>
+        h1 {   /*  1  */
+            color: red;
+        }
+
+        #h1ID {    /*100*/
+            color: greenyellow;
+        }
+
+        .h1Class {    /*10*/
+            color: darkmagenta;
+        }
+
+        /*1  +1  +1 =3*/
+        body > section > h1 {           /* 3*/
+            color: deeppink;
+        }
+        /*1+1+100=102*/
+        section > h1#h1ID {   /*102*/
+            color: olive;
+
+        }
+/*1+1+10=12*/
+        section h1:first-child {   /*12*/
+            color: darkcyan;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <h1 id="h1ID" class="h1Class">Select Me From AnyThing</h1>
+</section>
+
+
+</body>
+</html>
